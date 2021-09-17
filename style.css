@@ -10,6 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* header */
 .logo {
     height: 50px;
     border-right: 1px solid grey;
@@ -34,6 +35,8 @@ nav a {
     font-size: 12px;
 }
 
+/* jambtron */
+
 .foto-testo {
     height: 400px;
     background-image: url("img/banner.jpg");
@@ -44,7 +47,7 @@ nav a {
     padding: 250px 200px 200px 50px;
 }
 
-
+/* main */
 
 .row::after {
     content: "";
@@ -53,9 +56,31 @@ nav a {
 }
 
 #sezione-blue {
-    background-color: darkturquoise;
+    /* background-color: darkturquoise; */
 }
 
+#imgleft {
+    background-image: url("img/img-1.jpg");
+}
+
+#imgright {
+    background-image:url("img/img-3.jpg");
+}
+
+#imgcenter {
+    background-image:url("img/banner-2.jpg");
+    height: 150px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: contain;
+} 
+
+.img1, .img3 {
+    height: 150px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: contain;
+}
 .widgettop {
     height: 50px;
 }
@@ -69,7 +94,6 @@ nav a {
     height: 300px;
     float: left;
     width: 25%;
-    background-color: #6495ed;
     margin-bottom: 20px;
 }
 
