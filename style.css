@@ -6,9 +6,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
-    background-color:blueviolet ;
-    height: 100px;
+    /* background-color:blueviolet ;
+    height: 100px; */
 }
 
 .logo {
@@ -20,6 +24,20 @@ header {
 .container {
     width: 80%;
     margin: auto;
+}    
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
 }
 
 .foto-testo {
